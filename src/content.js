@@ -1,12 +1,14 @@
 import {
+  Briefcase,
   Building2,
   CalendarCheck,
-  CheckCircle2,
   ClipboardList,
   Handshake,
+  Home,
   Hotel,
-  MessageCircle,
   ShieldCheck,
+  Shirt,
+  ShoppingBag,
   Sparkles,
   Wrench,
 } from 'lucide-react';
@@ -26,67 +28,79 @@ export const navItems = [
   { label: 'Contact', href: '#contact' },
 ];
 
+export const stats = [
+  { value: '500+', label: 'Clients Served' },
+  { value: '5+', label: 'Years in Bahrain' },
+  { value: '50+', label: 'Team Members' },
+  { value: '24/7', label: 'Support Available' },
+];
+
 export const services = [
   {
     title: 'Cleaning Services',
-    body: 'Routine and project-based cleaning support for offices, commercial sites, residential properties, and operational spaces.',
+    body: 'Routine and deep cleaning for offices, commercial sites, residential properties, and operational spaces — done properly, every time.',
     icon: Sparkles,
   },
   {
-    title: 'Facility Maintenance Support',
-    body: 'Coordinated support for day-to-day facility needs, minor maintenance coordination, site readiness, and operational upkeep.',
+    title: 'Wardrobe Management',
+    body: 'Professional decluttering, categorising, arranging, ironing, and steaming — transforming chaotic wardrobes into calm, organised spaces.',
+    icon: Shirt,
+  },
+  {
+    title: 'Facility Maintenance',
+    body: 'Day-to-day facility support, minor maintenance coordination, site readiness, and operational upkeep for commercial and residential clients.',
     icon: Wrench,
   },
   {
-    title: 'Hospitality Staffing Support',
-    body: 'Professional staffing support for hotels, serviced residences, events, receptions, and guest-facing business environments.',
+    title: 'Hospitality Staffing',
+    body: 'Professional staffing for hotels, serviced residences, events, receptions, and guest-facing business environments.',
     icon: Hotel,
   },
   {
-    title: 'Event Support Services',
-    body: 'Pre-event setup, on-ground support, cleaning coordination, guest flow support, and post-event operational assistance.',
+    title: 'Event Support',
+    body: 'Pre-event setup, on-ground support, cleaning coordination, guest flow management, and post-event operational assistance.',
     icon: CalendarCheck,
   },
   {
-    title: 'General Operational Support',
-    body: 'Flexible business and residential support for recurring operations, temporary workload needs, and service coordination.',
+    title: 'General Operations',
+    body: 'Flexible support for recurring operations, temporary workload needs, and service coordination across any type of space.',
     icon: ClipboardList,
   },
 ];
 
 export const strengths = [
   {
-    title: 'Bahrain-focused service delivery',
-    body: 'Built for local businesses, residences, hospitality venues, and event teams that need reliable on-ground support.',
+    title: 'Bahrain-focused delivery',
+    body: 'Built for local businesses, residences, hospitality venues, and event teams that need reliable, on-ground support.',
     icon: Building2,
   },
   {
-    title: 'Professional presentation',
-    body: 'Clear communication, trained teams, and service conduct that protects the client environment and guest experience.',
+    title: 'Elite presentation standards',
+    body: 'Uniformed teams, professional conduct, and service standards that protect your environment and guest experience.',
     icon: ShieldCheck,
   },
   {
-    title: 'Flexible operational coverage',
-    body: 'Support can be structured around recurring schedules, seasonal needs, special events, or urgent service requests.',
+    title: 'Flexible coverage',
+    body: 'Support structured around recurring schedules, seasonal needs, special events, or urgent requests — at any scale.',
     icon: Handshake,
   },
 ];
 
 export const markets = [
-  'Commercial offices',
-  'Hospitality venues',
-  'Events and exhibitions',
-  'Residential clients',
-  'Retail and mixed-use spaces',
-  'Business operations teams',
+  { label: 'Commercial Offices', icon: Building2 },
+  { label: 'Hospitality Venues', icon: Hotel },
+  { label: 'Events & Exhibitions', icon: CalendarCheck },
+  { label: 'Residential Clients', icon: Home },
+  { label: 'Retail & Mixed-Use Spaces', icon: ShoppingBag },
+  { label: 'Business Operations Teams', icon: Briefcase },
 ];
 
 export const process = [
-  'Requirement review',
-  'Service plan',
-  'Team coordination',
-  'On-site delivery',
-  'Follow-up and improvement',
+  'Requirement Review',
+  'Service Plan',
+  'Team Coordination',
+  'On-Site Delivery',
+  'Follow-Up',
 ];
 
 export const socialGoals = [
@@ -97,10 +111,8 @@ export const socialGoals = [
 ];
 
 export const trustPoints = [
-  'Cleaning and facility support',
-  'Hospitality and event staffing',
+  'Cleaning & facility support',
+  'Hospitality & event staffing',
   'Bahrain market focus',
-  'Lead generation ready',
+  'Professional uniforms',
 ];
-
-export { CheckCircle2, MessageCircle };
